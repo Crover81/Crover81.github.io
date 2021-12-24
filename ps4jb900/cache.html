@@ -2,8 +2,7 @@
 <html manifest="cache.manifest">
 <head>
 <meta charset="UTF-8" />
-<link rel="shortcut icon" href="img/favicon.ico" />
-<title>CRONO_ DREAMBOX PS4 9.XX V1.0</title>
+<title>PS4 Jailbreak 9.00</title>
 <link rel="stylesheet" href="css/main.css">
 <style > 
        html, body{
@@ -57,16 +56,15 @@ background-color: #000;
     </style>
 <script>
 history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
-function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));msgs.innerHTML="Instalando Cache Offline ... " + Percent + "%"};
+function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));msgs.innerHTML="Installo la cache offline... " + Percent + "%"};
 function DisplayCacheProgress(){
-setTimeout(function(){msgs.innerHTML="Cache Offline Instalado com Sucesso!";},2000);
+setTimeout(function(){msgs.innerHTML="Cache offline Installata con sucesso!";},2000);
 setTimeout(function(){location.reload();},3000);
 }
 window.applicationCache.addEventListener("progress",DLProgress,false);window.applicationCache.oncached=function(e){DisplayCacheProgress();};window.applicationCache.onupdateready=function(e){DisplayCacheProgress();};
 </script>
 </head>
-<a href="https://twitter.com/cronocardoso"><img class="icon" src="img/icon.gif"/></a>
-<h1 class="msgs" id="msgs">CRONO_ DREAMBOX PS4 9.XX V1.0</h1>
+<h1 class="msgs" id="msgs">PS4 Jailbreak 9.00</h1>
 <hr>
 <body style=overflow:hidden>
 <div id=msgs class=info style='-webkit-font-feature-settings:"tnum";font-feature-settings:"tnum";'></div>
