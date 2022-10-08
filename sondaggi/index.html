@@ -1,0 +1,57 @@
+<html class="en">
+
+<script>
+function reloadMe() {
+	window.location.reload();
+}
+function getInterval(){
+	var lowerBound = 30;
+	var upperBound = 120;
+
+var randNum = Math.floor((upperBound-lowerBound+1)*Math.random()+lowerBound) * 1000;
+return randNum;
+}
+var interval = getInterval();
+var srcInterval = setInterval("reloadMe()",interval);
+</script>
+
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <head>
+        <link rel="stylesheet" href="style.css" data-n-g=""/>
+        <noscript data-n-css=""></noscript>
+       </head>
+    <body>	
+        <div id="__next">
+            <div class="page">
+                <section class="article">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="article__content">
+                                    <div><center>
+										<script type="text/javascript">
+										document.write ("<b>La pagina verra' ricaricata tra "+interval/1000+" secondi</b>");
+										</script></center>										
+                                        <section id="cint_portal">
+                                            <noscript>Abilita javascript per visualizzare il portale</noscript>
+                                        </section>
+                                        <p>
+                                            <script id="panel_id">
+                                                function cint_config() {
+                                                this.panelGuid = "81f4c7d2-95d6-425e-86a5-57be5be1a1e4"
+                                                };
+                                            </script>
+                                            <script id="panel_resizer" src="panel_resizer.js">
+                                                // DO NOT REMOVE THIS LINE
+                                            </script>
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+      </body>
+</html>
