@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html class="en">
+
+<script>
+function reloadMe() {
+	window.location.reload();
+}
+function getInterval(){
+	var lowerBound = 30;
+	var upperBound = 120;
+
+var randNum = Math.floor((upperBound-lowerBound+1)*Math.random()+lowerBound) * 1000;
+return randNum;
+}
+var interval = getInterval();
+var srcInterval = setInterval("reloadMe()",interval);
+</script>
+
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <link rel="preload" href="tp.widget.bootstrap.min.js" as="script" async=""/>
+        <meta charSet="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="preload" href="7c09405efdb8b91461f2.css" as="style"/>
+        <link rel="stylesheet" href="7c09405efdb8b91461f2.css" data-n-g=""/>
+       </head>
+    <body>
+		<center>	
+			<script type="text/javascript">
+				document.write ("<b>La pagina verra' ricaricata tra "+interval/1000+" secondi</b>");
+			</script>
+		</center>
+		 <div id="__next">
+            <div class="page">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="article__content">						
+                                    <div>
+										    <section id="cint_portal">
+                                            <noscript>Please enable JavaScript to view the panelist portal</noscript>
+                                        </section>
+                                        <p>
+                                            <script id="panel_id">
+                                                function cint_config() {
+                                                this.panelGuid = "81f4c7d2-95d6-425e-86a5-57be5be1a1e4"
+                                                };
+                                            </script>
+                                            <script id="panel_resizer" src="../panelist.cint.com/assets/embed.min.js">
+                                                // DO NOT REMOVE THIS LINE
+                                            </script>
+                                        </p>
+                                        <p>&nbsp;</p>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </section>                
+            </div>
+        </div>
+    </body>
+</html>
